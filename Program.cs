@@ -6,7 +6,7 @@
         float ballY = 10f; // Initial height
         float velocity = 0f; // Initial velocity
         float gravity = -9.8f; // Gravity
-        float bounceFactor = 9.8f; // Energy retained after bounce (1 = no loss)
+        float bounceFactor = 0.90f; // Energy retained after bounce (1 = no loss)
 
         float groundLevel = 0f; // Ground position
         float timeStep = 0.05f; // Time step (smaller = more accurate)
